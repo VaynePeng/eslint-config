@@ -7,6 +7,9 @@ importers:
       eslint:
         specifier: ^8.38.0
         version: registry.npmmirror.com/eslint@8.38.0
+      prettier:
+        specifier: ^2.8.7
+        version: registry.npmmirror.com/prettier@2.8.7
 
   packages/eslint-config: {}
 
@@ -17,6 +20,8 @@ importers:
   packages/eslint-config-typescript: {}
 
   packages/eslint-config-vue: {}
+
+  packages/prettier-config: {}
 
 packages:
 
@@ -708,6 +713,14 @@ packages:
     name: prelude-ls
     version: 1.2.1
     engines: {node: '>= 0.8.0'}
+    dev: true
+
+  registry.npmmirror.com/prettier@2.8.7:
+    resolution: {integrity: sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/prettier/-/prettier-2.8.7.tgz}
+    name: prettier
+    version: 2.8.7
+    engines: {node: '>=10.13.0'}
+    hasBin: true
     dev: true
 
   registry.npmmirror.com/punycode@2.3.0:
